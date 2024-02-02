@@ -3,81 +3,98 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int intMin = 15;
-        int intMax = 45637;
+        //int intMin = 15;
+        //int intMax = 45637;
 
-        long longMin = 5463746645763;
-        long longMax = 9999998388378989;
+        //long longMin = 5463746645763;
+        //long longMax = 9999998388378989;
 
-        bool isPositive = false;
-        bool isNegative = true;
+        //bool isPositive = false;
+        //bool isNegative = true;
 
-        char charFirst = 'a';
-        char charLast = 'q';
+        //char charFirst = 'a';
+        //char charLast = 'q';
 
-        string string1 = "Everything is working great";
-        string string2 = "Something weard";
+        //string string1 = "Everything is working great";
+        //string string2 = "Something weard";
 
-            string goodRes = intMin +" + "+ longMax + " < " + "0" + " is " + isPositive;
+        //    string goodRes = intMin +" + "+ longMax + " < " + "0" + " is " + isPositive;
 
-        Console.WriteLine();
+        //Console.WriteLine();
 
-        
-        string Sol = "When the programm is created correctly " + ", then" + string1;
-        //новый комментарий
-        //new one
-        Console.WriteLine();
 
-        int first = 25;
-        int last = 256783;
-            int plus = first + last;
-        int minus = first - last;
-        int multipl = first * last;
-        int division = last / first;
+        //string Sol = "When the programm is created correctly " + ", then" + string1;
+        ////новый комментарий
+        ////new one
+        //Console.WriteLine();
 
-        Console.WriteLine("Division result = " + division);
-        Console.WriteLine("Multiplication result = " + multipl);
-        Console.WriteLine("Addition result = " + plus);
+        //int first = 25;
+        //int last = 256783;
+        //    int plus = first + last;
+        //int minus = first - last;
+        //int multipl = first * last;
+        //int division = last / first;
 
-        division++;
-        division++;
-        division++;
-        division++;
-        division++;
-        division++;
-        Console.WriteLine("New division result = " + division);
+        //Console.WriteLine("Division result = " + division);
+        //Console.WriteLine("Multiplication result = " + multipl);
+        //Console.WriteLine("Addition result = " + plus);
 
-        multipl--;
-        multipl--;
-        multipl--;
-        multipl--;
-        multipl--;
-        multipl--;
-        Console.WriteLine("New multiplication result = " + multipl);
+        //division++;
+        //division++;
+        //division++;
+        //division++;
+        //division++;
+        //division++;
+        //Console.WriteLine("New division result = " + division);
 
-        string Name = "Ivan";
-        string Lastname = "Bolvan";
-        int age = 67;
-        Console.WriteLine(Name + " " + Lastname + " is " + age + " years old");
+        //multipl--;
+        //multipl--;
+        //multipl--;
+        //multipl--;
+        //multipl--;
+        //multipl--;
+        //Console.WriteLine("New multiplication result = " + multipl);
 
-        bool Employeed = true;
-        bool Manager = !Employeed;
+        //string Name = "Ivan";
+        //string Lastname = "Bolvan";
+        //int age = 67;
+        //Console.WriteLine(Name + " " + Lastname + " is " + age + " years old");
 
-        bool happy = Employeed && Manager;
-        bool ok = Employeed || Manager;
-        Console.WriteLine(happy);
-        Console.WriteLine(ok);
+        //bool Employeed = true;
+        //bool Manager = !Employeed;
 
-        bool res = 75 == 75;
-        bool res2 = 75 <= 75;
-        bool res3 = 75 != 64;
-        bool res4 = 45 > 76;
-        bool res5 = 87 >= 23;
-        Console.WriteLine(res);
-        Console.WriteLine(res2);
-        Console.WriteLine(res3);
-        Console.WriteLine(res4);
-        Console.WriteLine(res5);
+        //bool happy = Employeed && Manager;
+        //bool ok = Employeed || Manager;
+        //Console.WriteLine(happy);
+        //Console.WriteLine(ok);
+
+        ////bool res = 75 == 75;
+        ////bool res2 = 75 <= 75;
+        ////bool res3 = 75 != 64;
+        ////bool res4 = 45 > 76;
+        //bool res5 = 87 >= 23;
+        //Console.WriteLine(res);
+        //Console.WriteLine(res2);
+        //Console.WriteLine(res3);
+        //Console.WriteLine(res4);
+        //Console.WriteLine(res5);
+
+        Console.WriteLine("Please enter your name");
+        string Name = Console.ReadLine();
+
+        Console.WriteLine("Please enter your Lastname");
+        string Lastname = Console.ReadLine();
+
+        Console.WriteLine("Please enter your age");
+        string age = Console.ReadLine();
+        int convertAge = int.Parse(age);
+
+        Console.WriteLine("Please enter your occupation");
+        string profession = Console.ReadLine();
+
+        Console.WriteLine("Hello " + Name + " " + Lastname + "," + "I couldn't imagine you are " + convertAge + " years old.");
+        Console.WriteLine(profession + " - is a very interesting and important occupation!");
+
 
 
 
