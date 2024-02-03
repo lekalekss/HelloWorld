@@ -95,66 +95,148 @@ internal class Program
         //        Console.WriteLine("Hello " + Name + " " + Lastname + "," + "I couldn't imagine you are " + convertAge + " years old.");
         //        Console.WriteLine(profession + " - is a very interesting and important occupation!");
 
-        int a = 50;
+        //int a = 50;
 
-        if (a <= 50 && a==50)
-            Console.WriteLine("the number a  is equal");
-        if (a != 50)
-            Console.WriteLine("the number a  is more or less");
-        if (a > 50 || a < 50)
-            Console.WriteLine("the number a isn't equal");
+        //if (a <= 50 && a==50)
+        //    Console.WriteLine("the number a  is equal");
+        //if (a != 50)
+        //    Console.WriteLine("the number a  is more or less");
+        //if (a > 50 || a < 50)
+        //    Console.WriteLine("the number a isn't equal");
 
-        int b = 50;
+        //int b = 50;
 
-        if (b == 5)
-            Console.WriteLine("number is equal");
-        if (b < 10)
-            Console.WriteLine("number is less");
-        if (b <= 25)
-            Console.WriteLine("number less or equal 25");
-        if (b == 50)
-            Console.WriteLine("number b is equal");
-        if (b > 50)
-            Console.WriteLine("number is more");
-        if (b != 100)
-            Console.WriteLine("number isn't equal 100");
-        else Console.WriteLine("another number volue");
+        //if (b == 5)
+        //    Console.WriteLine("number is equal");
+        //if (b < 10)
+        //    Console.WriteLine("number is less");
+        //if (b <= 25)
+        //    Console.WriteLine("number less or equal 25");
+        //if (b == 50)
+        //    Console.WriteLine("number b is equal");
+        //if (b > 50)
+        //    Console.WriteLine("number is more");
+        //if (b != 100)
+        //    Console.WriteLine("number isn't equal 100");
+        //else Console.WriteLine("another number volue");
 
 
-        int c = 50;
+        //int c = 50;
 
-        if (c == 5)
-            Console.WriteLine("number c is equal");
-        else if (c < 10)
-            Console.WriteLine("number c is less");
-        else if (c <= 25)
-            Console.WriteLine("number c is less or equal 25");
-        else if (c == 50)
-            Console.WriteLine("number c is equal");
-        else if (c > 50)
-            Console.WriteLine("number c is more");
-        else if (c != 100)
-            Console.WriteLine("number c isn't equal 100");
-        else Console.WriteLine("another number volue");
+        //if (c == 5)
+        //    Console.WriteLine("number c is equal");
+        //else if (c < 10)
+        //    Console.WriteLine("number c is less");
+        //else if (c <= 25)
+        //    Console.WriteLine("number c is less or equal 25");
+        //else if (c == 50)
+        //    Console.WriteLine("number c is equal");
+        //else if (c > 50)
+        //    Console.WriteLine("number c is more");
+        //else if (c != 100)
+        //    Console.WriteLine("number c isn't equal 100");
+        //else Console.WriteLine("another number volue");
 
-        int d = 45;
-        if (d <= 34)
-            Console.WriteLine("true");
+        //int d = 45;
+        //if (d <= 34)
+        //    Console.WriteLine("true");
+        //else
+        //    Console.WriteLine("false");
+
+        //int g = 50;
+        //switch (g) 
+        //{ 
+        //    case 5: 
+        //        Console.WriteLine("first");
+        //        break;
+        //    case 40: Console.WriteLine("second");
+        //        break;
+        //    case 67: Console.WriteLine("third");
+        //        break;
+        //        default: Console.WriteLine("another number volume");
+        //        break;
+
+        //    int[] numbers = new int[4];
+        //        numbers[0] = 6;
+        //        numbers[3] = 4;
+        //        numbers[2] = 6;
+        //        numbers[1] = 3; // 6 3 6 4
+
+        //var lenght = numbers.Length;
+        
+        //Console.WriteLine(numbers.Length);
+
+
+
+        var listofNumbers = new List<string>()
+        {
+            "Sergei", "Anna", "Ivan", "Mike", "Ivan"
+
+        };
+
+        var IndexIvan = listofNumbers.IndexOf("John");
+
+        if (IndexIvan == -1)
+            Console.WriteLine("John not found");
         else
-            Console.WriteLine("false");
+            Console.WriteLine(IndexIvan);
+        Console.WriteLine(IndexIvan);
 
-        int g = 50;
-        switch (g) 
-        { 
-            case 5: 
-                Console.WriteLine("first");
-                break;
-            case 40: Console.WriteLine("second");
-                break;
-            case 67: Console.WriteLine("third");
-                break;
-                default: Console.WriteLine("another number volume");
-                break;
+
+
+
+
+
+
+
+        //names.Add("Mike");
+        //names.Add("Ivan");
+        //names.Add("Anna");
+
+        //names.Remove("Ivan");
+
+        //var name = names[1];
+        //names.RemoveAt(1);
+        //Console.WriteLine(names.Count);
+
+        //bool isContains = names.Contains("Mike");
+        //Console.WriteLine(isContains);
+
+        //names.Reverse();
+        //names.Sort();
+        //Console.WriteLine(names);
+
+
+
+
+        //listofNumbers.AddRange(numbers);
+
+        //int listNumbers = listofNumbers[3];
+        //int listLenght = listofNumbers
+
+        //numbers[0] =10; // [10,3,6,5]
+
+        //string[] names = new string[3];
+        //names[0] = "ivan";
+        //names[1] = "Peter";
+        //names[2] = "Vasya"; //["Ivan", "Peter", "Vasya"]
+
+        //Random random = new Random();
+        //int randomNumber = random.Next(0,2);
+
+        //Console.WriteLine(names[randomNumber]);
+
+        //string myName = names[0];
+        //Console.WriteLine(myName);
+
+
+
+
+
+
+
+
+
 
                 
 
@@ -172,8 +254,4 @@ internal class Program
 
     }
 
-    private string GetDebuggerDisplay()
-    {
-        return ToString();
-    }
-}
+    
