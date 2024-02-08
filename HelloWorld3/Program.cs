@@ -163,24 +163,24 @@ internal class Program
         //        numbers[1] = 3; // 6 3 6 4
 
         //var lenght = numbers.Length;
-        
+
         //Console.WriteLine(numbers.Length);
 
 
 
-        var listofNumbers = new List<string>()
-        {
-            "Sergei", "Anna", "Ivan", "Mike", "Ivan"
+        //var listofNumbers = new List<string>()
+        //{
+        //    "Sergei", "Anna", "Ivan", "Mike", "Ivan"
 
-        };
+        //};
 
-        var IndexIvan = listofNumbers.IndexOf("John");
+        //var IndexIvan = listofNumbers.IndexOf("John");
 
-        if (IndexIvan == -1)
-            Console.WriteLine("John not found");
-        else
-            Console.WriteLine(IndexIvan);
-        Console.WriteLine(IndexIvan);
+        //if (IndexIvan == -1)
+        //    Console.WriteLine("John not found");
+        //else
+        //    Console.WriteLine(IndexIvan);
+        //Console.WriteLine(IndexIvan);
 
 
 
@@ -230,28 +230,66 @@ internal class Program
         //Console.WriteLine(myName);
 
 
+        //for (int i=0; i <=5;  i++)
+        //{
+        //    Console.WriteLine("Hello " + i);
+        //}
+
+        //bool isValidInput = false;
+
+        //while (!isValidInput)
+        //{
+        //    Console.WriteLine("Enter your name");
+
+        //}
+
+        int[] numbers = new int[] {1,2,3,4,5};
+        var num = string.Join(" ", numbers[1], numbers[3]);
+        Console.WriteLine(num);
+
+        string[] fruits = new string[] {"Apple", "Banana", "Orange"};
+        var fruit = string.Join(" ", fruits);
+        Console.WriteLine(fruit);
+
+        fruits[2] = "Mango";
+        var newfruits = string.Join(" ", fruits);
+        Console.WriteLine(newfruits);
+
+        var count = fruits.Length;
+        Console.WriteLine(count);
 
 
 
+        List<string> ExoticFruits = new List<string>();
+        ExoticFruits.Add("Apple");
+        ExoticFruits.Add("Banana");
+        ExoticFruits.Add("Orange");
 
+        var join = string.Join(" ", ExoticFruits[1], ExoticFruits[2]);
+        Console.WriteLine(join);
 
+        ExoticFruits.Add("Mango");
+        var join2 = string.Join(" ", ExoticFruits);
+        Console.WriteLine(join2);
 
-
-
-                
-
-        }
-
-
-
-
-         
-
-
-
+        ExoticFruits.Remove("Banana");
+        var count2 = ExoticFruits.Count;
+        Console.WriteLine(count2);
 
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+}
 
     
